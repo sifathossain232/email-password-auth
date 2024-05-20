@@ -67,7 +67,7 @@ const Login = () => {
     }
 
     return (
-        <div>
+        <div className='font-sans'>
             <h2 className='flex justify-center text-xl font-medium mt-20'>Please login</h2>
             <div className="flex justify-center mt-5">
                 <form onSubmit={handleLogin} className="w-full max-w-sm">

@@ -80,7 +80,7 @@ const Register = () => {
     }
 
     return (
-        <div className='flex justify-center'>
+        <div className='flex justify-center font-sans'>
             <div>
                 <h4 className='mt-1 text-xl font-medium flex justify-center'>Please Register</h4>
                 <form onSubmit={handleSubmit}>
@@ -96,7 +96,7 @@ const Register = () => {
                         <input className='mt-5 bg-sky-500 text-white text-base font-medium p-2 rounded-md w-28' type="submit" value="Register" />
                     </div>
                 </form>
-                <p>Already have an account? Please <Link to="/login" className='text-blue-500'>Login.</Link></p>
+                <p className='text-sm mt-2'>Already have an account? Please <Link to="/login" className='text-blue-500'>Login.</Link></p>
             </div>
         </div>
     );
